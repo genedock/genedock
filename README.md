@@ -1,12 +1,12 @@
-## Gendock 是什么？
+## Genedock 是什么？
 
-Gendock是一个生命健康数据创业团队，创始人为前友盟首席数据科学家 **[李厦戎](http://weibo.com/logan)** 和前阿里云资深产品专家 **[王乐珩](http://weibo.com/joyfire)** 。
+Genedock是一个生命健康数据创业团队，创始人为前友盟首席数据科学家 **[李厦戎](http://weibo.com/logan)** 和前阿里云资深产品专家 **[王乐珩](http://weibo.com/joyfire)** 。
 
 我们怀揣用数据技术推动健康领域革新的梦想，期待您与我们结伴前行。
 
 关于行业背景和Genedock的介绍，可以参考我们[在Qcon上的分享](http://vdisk.weibo.com/s/A0GI9rXObouM)
 
-Gendock办公室在宇宙中心——回龙观的居民楼里，距离地铁站步行2分钟，逆峰上下班。
+Genedock办公室在宇宙中心——回龙观，距离地铁站步行2分钟，逆峰上下班。
 
 **我们不考虑以下候选人：**
 
