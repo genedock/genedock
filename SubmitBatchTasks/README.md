@@ -16,6 +16,6 @@
 2. 参照 “PythonSDK_BatchSubmitTasks.md” 文档批量提交任务。
 	> 说明：
 	
-	> - 文档中提到的脚本和参考文件见 examples 文件夹
+	> - 文档中提到的脚本和参考文件见 examples 文件夹。
 	
-	> - examples 文件夹中的 python 脚本仅适用于 python 2.7
+	> - examples 文件夹中的 python 脚本仅适用于 python 2.7。
