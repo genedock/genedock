@@ -1,0 +1,4 @@
+#samle_name	read_path
+NA12878	public:/demo-data/WES-Germline_NA12878_smallsize/NA12878-NGv3-LAB1360-A_1000000_1.fastq.gz
+F4-1	biolam_105:/F4-1-tmp_1.fq.gz
+F3-10	biolam_105:/F3-10-tmp_1.fq.gz

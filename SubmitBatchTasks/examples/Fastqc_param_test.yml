@@ -1,0 +1,65 @@
+Conditions:
+  schedule: ''
+Inputs:
+  loaddata_reads:
+    alias: 输入序列文件
+    category: loaddata
+    data:
+    - enid: null
+      name: "{$read}"
+      property:
+        block_file:
+          block_name: null
+          is_block: false
+          split_format: default
+    formats:
+    - fq
+    - fastq
+    - bam
+    - gz
+    - sam
+    maxitems: 1000
+    minitems: 1
+    required: true
+    type: file
+Outputs:
+  store_data_node_fastqc:
+    alias: store Fastqc_output_tgz
+    data:
+    - description: <Please input the description of the output data in here>
+      name: "/home/admin/Fastqc_Result/{$sample}_fasqtc_out.tgz"
+      property:
+        block_file:
+          block_name: null
+          is_block: false
+          split_format: default
+    formats:
+    - tgz
+    maxitems: 1
+    minitems: 1
+    type: file
+Parameters:
+  Fastqc_node1:
+    alias: fastqc 0.11.3
+    parameters:
+      threads:
+        hint: Specifies the number of files which can be processed simultaneously.  Each
+          thread will be allocated 250MB of memory so you shouldn't run more threads
+          than your available memory will cope with, and not more than 6 threads on
+          a 32 bit machine。
+        maxvalue: 16
+        minvalue: 1
+        required: true
+        type: integer
+        value: 2
+        variable: true
+Property:
+  CDN:
+    required: true
+  reference_task:
+  - id: null
+  water_mark:
+    required: true
+    style: null
+description: <Please input the task's description in here>
+name: "{$sample}_Fastqc"
