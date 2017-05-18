@@ -1,11 +1,9 @@
-layout: postc
-title: GeneDock Python SDK：批量提交任务
+
+# GeneDock Python SDK：批量提交任务
 date: 2017-05-16
 author: Wu Yarong
 
 ---
-
-<p class="author-title">(本文由GeneDock公司 Bioinformatics Engineer 武雅蓉撰写，转载请保留作者信息和原文链接)</p>
 
 ## 引子
 
@@ -15,7 +13,6 @@ author: Wu Yarong
 
 小W：“这个简单！这种情况的批量提交任务就相当于，按照样本信息把配置文件中的输入项和输出项批量替换，每次替换完配置文件提交一个任务。下面我给你详细说一下具体步骤：”
 
-<!-- more -->
 
 ## 1. 获取运行任务的配置文件
 
