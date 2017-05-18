@@ -13,7 +13,7 @@
 	> - 具体可参照[Python SDK手册](https://www.genedock.com/static_docs/#012)。
 
 
-2. 参照 “PythonSDK_BatchSubmitTasks.md” 文档批量提交任务。
+2. 参照 “PythonSDK_BatchSubmitTasks.md” 文档批量提交任务
 	> 说明：
 	
 	> - 文档中提到的脚本和参考文件见 examples 文件夹。
